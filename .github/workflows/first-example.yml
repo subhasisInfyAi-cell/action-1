@@ -6,7 +6,7 @@ jobs:
     first_jobs:
         runs-on: ubuntu-latest
         steps: 
-        - name: Welcome message
+        - name: Welcome message check
           run: echo 'My First GitHu Actions Job'
           
         - name: List files
